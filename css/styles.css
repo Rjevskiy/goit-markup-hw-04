@@ -36,16 +36,15 @@ button {cursor: pointer;}
 
 .header-container{display: flex;
     align-items: center;
-    height: 72px;
-    position: relative;}  
+    height: 72px;}  
 
 .page-navigation{display: flex;
-    align-items: center;
-    position: relative;}
+    align-items: center;}
 
 .nav-menu{display: flex;
     gap: 40px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;}
 
 .logo{
     font-family:"Raleway",sans-serif;
@@ -55,7 +54,8 @@ button {cursor: pointer;}
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;}
+    margin-right: 76px;
+    position: relative;}
 
 .logo-text-roboto{
     font-family: "Raleway", sans-serif;
