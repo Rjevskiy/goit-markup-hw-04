@@ -36,10 +36,12 @@ button {cursor: pointer;}
 
 .header-container{display: flex;
     align-items: center;
-    height: 72px;}  
+    height: 72px;
+    position: relative;}  
 
 .page-navigation{display: flex;
-    align-items: center;}
+    align-items: center;
+    position: relative;}
 
 .nav-menu{display: flex;
     gap: 40px;
