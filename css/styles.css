@@ -36,12 +36,12 @@ button {cursor: pointer;}
 
 .header-container{display: flex;
     align-items: center;
-    position: relative;
-    color: #404bbf;
     height: 72px;}  
 
 .page-navigation{display: flex;
-    align-items: center;}
+    align-items: center;
+    position: relative; 
+    color: #404bbf;}
 
 .nav-menu{display: flex;
     gap: 40px;
@@ -123,7 +123,7 @@ button {cursor: pointer;}
     margin-right: auto;
     background-color:#2e2f42;
     /*background-image: url("../images/Dark-bg.png"),url("../images/hero\ image.jpg");*/
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("./images/hero\ image.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero\ image.jpg");
     /*background-repeat: no-repeat;*/
     background-clip: padding-box;
     background-size: cover;
