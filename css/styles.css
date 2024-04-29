@@ -39,9 +39,7 @@ button {cursor: pointer;}
     height: 72px;}  
 
 .page-navigation{display: flex;
-    align-items: center;
-    position: relative; 
-    color: #404bbf;}
+    align-items: center;}
 
 .nav-menu{display: flex;
     gap: 40px;
@@ -73,6 +71,9 @@ button {cursor: pointer;}
     letter-spacing: 0.02em;
     color:#404bbf;}
 
+.menu-item-span{position: relative;
+    color: #404bbf;}
+
 .menu-link{font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -86,7 +87,7 @@ button {cursor: pointer;}
 .menu-item-span::after{display: flex;
     content:"";
     position: absolute;
-    /*left: 0;*/
+    left: 0;
     bottom: -1px; 
     border-radius: 2px;
     width: 48px;
