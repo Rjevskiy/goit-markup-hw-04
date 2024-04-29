@@ -39,7 +39,9 @@ button {cursor: pointer;}
     height: 72px;}  
 
 .page-navigation{display: flex;
-    align-items: center;}
+    align-items: center;
+    position: relative;
+    color: #404bbf;}
 
 .nav-menu{display: flex;
     gap: 40px;}
