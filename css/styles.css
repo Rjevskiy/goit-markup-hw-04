@@ -185,6 +185,8 @@ button {cursor: pointer;}
     padding-top: 120px;
     padding-bottom: 120px;}
 
+.container-icon{width: 1128px;}
+
 .benefits-container{width: 1128px;
     display: flex;
     flex-direction: row;
