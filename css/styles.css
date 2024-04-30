@@ -182,8 +182,11 @@ button {cursor: pointer;}
 /*===========benefits page===============*/ 
 
 .benefits{
+    width: 1440px;
     padding-top: 120px;
-    padding-bottom: 120px;}
+    padding-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;}
 
 .container-icon{}
 
