@@ -125,7 +125,7 @@ button {cursor: pointer;}
     color:#404bbf;}
 
 /*=========hero page===========*/ 
-/*
+
 .hero{/*display: flex;*/
     padding-top: 188px;
     padding-bottom: 188px;
@@ -134,11 +134,11 @@ button {cursor: pointer;}
     margin-right: auto;
     background-color:#2e2f42;
     /*background-image: url("../images/Dark-bg.png"),url("../images/hero\ image.jpg");*/
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero\ image.jpg");
-    /*background-repeat: no-repeat;*/
+  /*  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero\ image.jpg");*/
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero\ image.jpg); 
+    background-repeat: no-repeat;
     background-clip: padding-box;
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
     }
 
