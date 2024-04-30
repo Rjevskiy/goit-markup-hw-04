@@ -185,15 +185,20 @@ button {cursor: pointer;}
     padding-top: 120px;
     padding-bottom: 120px;}
 
-.container-icon{width: 1128px;}
-
-.benefits-container{width: 1128px;
+.container-icon{width: 1128px;
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
     align-items: stretch;
     gap: 24px;}
 
+.benefits-container{width: 1128px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: stretch;
+    gap: 24px;} 
+    
 .visually-hidden {position: absolute;
     width: 1px;
     height: 1px;
