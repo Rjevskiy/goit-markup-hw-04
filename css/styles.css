@@ -126,7 +126,7 @@ button {cursor: pointer;}
 
 /*=========hero page===========*/ 
 
-.hero{/*display: flex;*/
+.hero{display: flex;
     padding-top: 188px;
     padding-bottom: 188px;
     max-width: 1440px;
