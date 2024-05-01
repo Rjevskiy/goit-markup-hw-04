@@ -230,6 +230,7 @@ button {cursor: pointer;}
 
 .photo-container{display: flex;
     flex-direction: row;
+    justify-content: center; 
     gap: 24px;}
   
 .ourteam-fhoto{background-color:#FFFFFF;
