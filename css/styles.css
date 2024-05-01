@@ -20,7 +20,7 @@ img{display: block;}
 button {cursor: pointer;}
 
 .container {max-width: 1158px;
-    padding: 15 0;
+    padding: 0 0;
     margin:  0 auto;
     outline: 1px solid red;}
 
@@ -216,7 +216,6 @@ button {cursor: pointer;}
 /*============our team============*/
 
 .our-team-container{
-    background: #f4f4fd;
     padding-top: 120px;
     padding-bottom: 120px;}
 
@@ -230,13 +229,14 @@ button {cursor: pointer;}
     flex-direction: row;
     justify-content: center; 
     gap: 24px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;}
+    padding-bottom: 120px;
+    /*box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px; */}
   
 .ourteam-fhoto{background-color:#FFFFFF;
     border-radius: 0 0 4px 4px;
     width: calc((100% - 72px) / 4);
-}    
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);}    
 
 .ourteam-item{text-align: center;
     margin-bottom: 8px}    
