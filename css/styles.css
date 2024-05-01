@@ -168,14 +168,17 @@ button {cursor: pointer;}
 .button-item:focus{background:#404bbf;}        
 
 /*===========benefits page===============*/ 
-
+/*
 .icons-container{
     display: flex;
-    column-gap: 24px;
+    flex-direction: row;
     align-items: center;
     padding-top: 120px;
     padding-bottom: 120px;
     width: calc((100% - 72px) / 4);}
+
+.benefits-container{display: flex;
+    column-gap: 24px;}
 
 .visually-hidden {position: absolute;
     width: 1px;
@@ -212,7 +215,7 @@ button {cursor: pointer;}
 */
 /*============our team============*/
 
-/*.our-team-container{
+.our-team-container{
     background: #f4f4fd;
     padding-top: 120px;
     padding-bottom: 120px;
