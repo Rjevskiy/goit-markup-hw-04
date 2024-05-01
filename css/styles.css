@@ -134,11 +134,7 @@ button {cursor: pointer;}
     background-clip: padding-box;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero\ image.jpg); }
-
-    
-.hero-container{}
-
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero-image.jpg"    ); }
 
 .hero-page{font-weight: 700px; 
     font-size: 56px;
@@ -151,8 +147,6 @@ button {cursor: pointer;}
     margin-right: auto;
     margin-bottom: 48px;}
  
-
-
 .button-item{border: none;
     min-width: 169px;
     height: 56px;
@@ -176,7 +170,7 @@ button {cursor: pointer;}
 
 /*===========benefits page===============*/ 
 
-/*.benefits{
+.benefits{
     width: 1440px;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -228,13 +222,15 @@ button {cursor: pointer;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;}
-
+*/
 /*============our team============*/
 
 /*.our-team-container{
     background: #f4f4fd;
     padding-top: 120px;
-    padding-bottom: 120px;}
+    padding-bottom: 120px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;}
 
 
 .ourteam-h{font-weight: 700;
