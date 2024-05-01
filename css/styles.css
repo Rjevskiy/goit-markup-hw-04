@@ -179,7 +179,7 @@ button {cursor: pointer;}
 
 .container-icon{}
 
-.benefits-container{width: 1128px;
+.benefits-container{
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
