@@ -224,26 +224,23 @@ button {cursor: pointer;}
     padding-bottom: 120px;*/
     background: #f4f4fd;}
 
+.image-container{}
+    
 
 .ourteam-h{font-weight: 700;
     font-size: 36px;
     text-align: center;
-    margin-bottom: 72px} 
+    margin-bottom: 72px}     
 
 .photo-container{display: flex;
     flex-direction: row;
     justify-content: center; 
     gap: 24px;
     padding-bottom: 120px;}
-  
+    
 .ourteam-fhoto{background-color:#FFFFFF;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);}    
-
-.image-container{}
-
-.cart-container{padding-top: 32px; 
-    padding-bottom: 32px;}
 
 .ourteam-item{text-align: center;
     padding-bottom: 8px;
@@ -256,35 +253,33 @@ button {cursor: pointer;}
     letter-spacing: 0.02em;
     text-align: center;}
 
+.cart-container{padding-top: 8px; 
+    padding-bottom: 32px;}
+
 .our-team-list-link{
     width: 232px;
     height: 40px;
     padding-top: 8px;
     fill: #4d5ae5;}
 
-.ul-icons{display: flex;
-    justify-content: center;
-    gap: 24px;}
-
-.li-icons{width: 40px;
-    height: 40px;}
-
-
-.our-team-list-icon{
+.our-team-list-icon{    
     width: 40px;
     height: 40px;
     margin-left: 20px;}    
+    
 
 .our-team-list-icon:hover,   
 .our-team-list-icon:focus{fill: #404bbf;}  
-
-.cart-container{padding-top: 8px;}    
+    
 
 /*========Our-Portfolio======*/
 
-/*.ourportfolio-container{
+
+.ourportfolio-container{
     padding-top: 120px;
     padding-bottom: 120px;}
+
+.li-container:hover{box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
 
 .op-h{text-align: center;
     font-weight: 700;
@@ -339,7 +334,9 @@ button {cursor: pointer;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;}    
-/*=============FOOTER============*/
+
+
+    /*=============FOOTER============*/
 
 
 /*.footer-container{display: flex;
