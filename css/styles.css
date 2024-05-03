@@ -233,7 +233,7 @@ button {cursor: pointer;}
 
 .image-container{display: flex;
     flex-direction: column;
-    outline: 1px solid green}
+/*    outline: 1px solid green*/}
     
 
 .ourteam-h{font-weight: 700;
