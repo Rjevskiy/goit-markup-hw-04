@@ -175,7 +175,7 @@ button {cursor: pointer;}
     padding-bottom: 120px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 1px solid magenta}
+  /*  outline: 1px solid magenta*/}
 
 .benefits-div{
     display: flex;
@@ -187,13 +187,13 @@ button {cursor: pointer;}
     border-radius: 4px;
     border: 1px solid #8e8f99; 
     margin-bottom: 8px;  
-    outline: 1px solid green}    
+   /* outline: 1px solid green*/}    
 
 .benefits-container{/*display: flex;
     flex-direction: row;*/
     column-gap: 24px;
     width: calc((100% - 72px) / 4);
-   /* outline: 1px solid yellow*/}
+   /* outline: 1px solid yellow*/*/}
 
 .visually-hidden {position: absolute;
     width: 1px;
