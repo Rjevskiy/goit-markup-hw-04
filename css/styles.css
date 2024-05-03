@@ -189,8 +189,8 @@ button {cursor: pointer;}
     margin-bottom: 8px;  
     outline: 1px solid green}    
 
-.benefits-container{display: flex;
-    flex-direction: row;
+.benefits-container{/*display: flex;
+    flex-direction: row;*/
     column-gap: 24px;
     width: calc((100% - 72px) / 4);
    /* outline: 1px solid yellow*/}
@@ -206,14 +206,7 @@ button {cursor: pointer;}
     clip: rect(0 0 0 0);
     overflow: hidden;}
     
-.benefits-list-link{display: flex;
-    flex-direction: column;
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    width: 264px;
-    height: 112px;
-    background: #f4f4fd;
-    align-items: center;}
+.benefits-list-link{}
 
 .benefits-item{font-weight: 500;
     font-size: 20px;
