@@ -178,8 +178,8 @@ button {cursor: pointer;}
     outline: 1px solid magenta}
 
 .benefits-div{
-    display: block;
-    /*flex-direction: row;*/
+    display: flex;
+    flex-direction: column;
     outline: 1px solid green}    
 
 .benefits-container{display: flex;
