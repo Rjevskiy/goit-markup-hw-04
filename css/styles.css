@@ -186,8 +186,7 @@ button {cursor: pointer;}
     background-color: #f4f4fd;
     border-radius: 4px;
     border: 1px solid #8e8f99; 
-    margin-bottom: 8px;  
-   /* outline: 1px solid green*/}    
+    margin-bottom: 8px; }    
 
 .benefits-container{/*display: flex;
     flex-direction: row;*/
@@ -232,7 +231,9 @@ button {cursor: pointer;}
     padding-bottom: 120px;*/
     background: #f4f4fd;}
 
-.image-container{}
+.image-container{display: flex;
+    flex-direction: column;
+    outline: 1px solid green}
     
 
 .ourteam-h{font-weight: 700;
