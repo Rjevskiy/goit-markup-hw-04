@@ -177,7 +177,10 @@ button {cursor: pointer;}
     padding-right: 15px;
     outline: 1px solid magenta}
 
-.benefits-div{outline: 1px solid green}    
+.benefits-div{
+    display: block;
+    /*flex-direction: row;*/
+    outline: 1px solid green}    
 
 .benefits-container{display: flex;
     flex-direction: row;
