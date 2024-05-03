@@ -22,7 +22,7 @@ button {cursor: pointer;}
 .container {max-width: 1158px;
     padding: 0 0;
     margin:  0 auto;
-    outline: 1px solid red;}
+   /* outline: 1px solid red;*/}
 
 .page-body{font-family: "Roboto", sans-serif;background: #FFFFFF;color: #434455;}
 
@@ -40,7 +40,7 @@ button {cursor: pointer;}
 
 .page-navigation{display: flex;
     align-items: center;
-    outline: 1px solid blue;}  
+   /* outline: 1px solid blue;*/}  
 
 .logo{font-family:"Raleway",sans-serif;
     font-weight: 700;
@@ -170,15 +170,20 @@ button {cursor: pointer;}
 /*===========benefits page===============*/ 
 
 .icons-container{
-    display: flex;
-    flex-direction: row;
     align-items: center;
     padding-top: 120px;
     padding-bottom: 120px;
-    width: calc((100% - 72px) / 4);}
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px solid magenta}
+
+.benefits-div{outline: 1px solid green}    
 
 .benefits-container{display: flex;
-    column-gap: 24px;}
+    flex-direction: row;
+    column-gap: 24px;
+    width: calc((100% - 72px) / 4);
+    outline: 1px solid yellow}
 
 .visually-hidden {position: absolute;
     width: 1px;
