@@ -170,7 +170,6 @@ button {cursor: pointer;}
 /*===========benefits page===============*/ 
 
 .icons-container{
-    align-items: center;
     padding-top: 120px;
     padding-bottom: 120px;
     padding-left: 15px;
@@ -188,11 +187,10 @@ button {cursor: pointer;}
     border: 1px solid #8e8f99; 
     margin-bottom: 8px;}
 
-.benefits-container{/*display: flex;
-    flex-direction: column;*/
+.benefits-container{display: flex;
+    flex-direction: row;
     column-gap: 24px;
-    width: calc((100% - 72px) / 4);
-    outline: 1px solid yellow}
+    /*outline: 1px solid yellow*/}
 
 .visually-hidden {position: absolute;
     width: 1px;
@@ -224,23 +222,17 @@ button {cursor: pointer;}
     max-width: 1440px;
     padding: 0 0;
     margin:  0 auto;
-    outline: 1px solid greenyellow;
     padding-top: 120px;/*
     padding-bottom: 120px;*/
-    background: #f4f4fd;}
-
-.image-container{display: flex;
-    flex-direction: column;
-/*    outline: 1px solid green*/}
-    
+    background: #f4f4fd;}    
 
 .ourteam-h{font-weight: 700;
     font-size: 36px;
     text-align: center;
     margin-bottom: 72px}     
 
-.photo-container{display: flex;
-    flex-direction: row;
+.photo-container{/*display: flex;*/
+    /*flex-direction: row;*/
     justify-content: center; 
     gap: 24px;
     padding-bottom: 120px;}
@@ -248,6 +240,10 @@ button {cursor: pointer;}
 .ourteam-fhoto{background-color:#FFFFFF;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);}    
+
+.image-container{/display: flex;
+    flex-direction: column;
+    outline: 1px solid green}
 
 .ourteam-item{text-align: center;
     padding-bottom: 8px;
@@ -259,24 +255,22 @@ button {cursor: pointer;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;}
-/*
-.cart-container{padding-top: 8px; 
-    padding-bottom: 32px;}*/
 
-.our-team-list-link{
-    width: 232px;
-    height: 40px;
+.our-team-list-link{display: flex;
+    flex-direction: row;
+    padding-bottom: 32px;
     padding-top: 8px;
-    fill: #4d5ae5;}
+    outline: 1px solid greenyellow;}
 
 .our-team-list-icon{    
     width: 40px;
     height: 40px;
     margin-left: 20px;}    
     
+.our-team-hover{fill: #4d5ae5;}
 
-.our-team-list-icon:hover,   
-.our-team-list-icon:focus{fill: #404bbf;}  
+.our-team-hover:hover,   
+.our-team-hover:focus{fill: #404bbf;}  
     
 
 /*========Our-Portfolio======*/
