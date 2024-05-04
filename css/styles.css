@@ -355,7 +355,7 @@ button {cursor: pointer;}
     /*=============FOOTER============*/
 
 
-/*.footer-container{display: flex;
+.footer-container{display: flex;
     width: 1440px;
     background: #2e2f42;
     gap: 120px;}
