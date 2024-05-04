@@ -417,7 +417,9 @@ button {cursor: pointer;}
 
 .footer-list-link{}
 
-.footer-list-icon{}    
+.footer-list-icon{width: 40px; 
+    height: 40px;
+    }    
 
 .footer-list-icon:hover,   
 .footer-list-icon:focus{fill: #404bbf;} 
