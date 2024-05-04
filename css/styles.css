@@ -364,7 +364,9 @@ button {cursor: pointer;}
     margin:  0 auto;/*
     outline: 1px solid red;*/}
    
-.footer-l{outline: 1px solid blue;
+.footer-l{display: flex;
+    align-items: baseline;
+    outline: 1px solid blue;
     max-width: 264px;
     padding-top: 100px;
     padding-bottom: 100px;} 
