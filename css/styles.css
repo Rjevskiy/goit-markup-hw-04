@@ -344,7 +344,7 @@ button {cursor: pointer;}
     overflow: auto;
     transform:  translateY(-100%);}
 
-.li-container:hover .overlay{
+.li-container:hover .overlay {
     transform:  translateY(0%);}
 
 .    
