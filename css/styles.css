@@ -364,8 +364,8 @@ button {cursor: pointer;}
     margin:  0 auto;/*
     outline: 1px solid red;*/}
    
-.footer-l{display: flex;
-    flex-direction: column;
+.footer-l{/*display: flex;
+    flex-direction: column;*/
     align-items: baseline;
     outline: 1px solid blue;
     max-width: 264px;
