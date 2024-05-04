@@ -366,11 +366,12 @@ button {cursor: pointer;}
    
 .div-footer{display: flex;
     flex-direction: row;
-    gap: 120px;}
+    gap: 120px;
+    align-items: baseline;
+    margin-right: 120px}
 
 .footer-l{/*display: flex;
     flex-direction: column;*/
-    align-items: baseline;
     outline: 1px solid blue;
     max-width: 264px;
     padding-top: 100px;
