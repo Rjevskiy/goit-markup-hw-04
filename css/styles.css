@@ -306,7 +306,7 @@ button {cursor: pointer;}
     position: relative;
     overflow: hidden;
     border-top: none;
- /*   outline: 1px solid greenyellow;*/}    
+    outline: 1px solid greenyellow;}    
 
 .li-container:hover{box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }  
@@ -315,8 +315,7 @@ button {cursor: pointer;}
     overflow: hidden;
     position: relative;
     /*border: 1px solid #e7e9fc;
-    /*border-top: none;*/
-    }
+    /*border-top: none;*/}
 
 .op-item{font-weight: 500;
     font-size: 20px;
