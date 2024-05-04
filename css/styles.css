@@ -384,8 +384,7 @@ button {cursor: pointer;}
     letter-spacing: 0.03em;
     color:#4d5ae5;
     display: inline-block;
-    text-transform: uppercase;
-    margin-bottom: 16px;}
+    text-transform: uppercase;}
     
 .footer-logo-raleway{
     font-family: "Raleway", sans-serif;
@@ -402,9 +401,15 @@ button {cursor: pointer;}
     color: #fff;
     padding-top: 100px;}
 
+.footer-p{ font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;}    
+
 .foter-logo{display: flex;
     fill: #4d5ae5;
-    padding-top: 16px;
     gap: 16px;}
 
 
