@@ -345,9 +345,9 @@ button {cursor: pointer;}
     transform:  translateY(-100%);}
 
 .li-container:hover .overlay{
-    transform:  translateY(0%);
-    /*display: block;*/
-    }
+    transform:  translateY(0%);}
+
+.    
     
 /*.our-portfolio-overlay{
     position: absolute;
