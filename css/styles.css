@@ -415,11 +415,10 @@ button {cursor: pointer;}
     color: #f4f4fd;
     width: 264px;} 
 
-.footer-list-link{}
+.footer-list-link{width: 40px; 
+    height: 40px;}
 
-.footer-list-icon{width: 40px; 
-    height: 40px;
-    }    
+.footer-list-icon{}    
 
 .footer-list-icon:hover,   
 .footer-list-icon:focus{fill: #404bbf;} 
