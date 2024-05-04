@@ -355,15 +355,19 @@ button {cursor: pointer;}
     /*=============FOOTER============*/
 
 
-.footer-container{display: flex;
-    flex-direction: row;
+.footer-container{/*display: flex;
+    flex-direction: row;*/
     background: #2e2f42;    
-    gap: 120px;
+    
     max-width: 1158px;
     padding: 0 0;
     margin:  0 auto;/*
     outline: 1px solid red;*/}
    
+.div-footer{display: flex;
+    flex-direction: row;
+    gap: 120px;}
+
 .footer-l{/*display: flex;
     flex-direction: column;*/
     align-items: baseline;
