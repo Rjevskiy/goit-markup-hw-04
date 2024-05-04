@@ -365,6 +365,7 @@ button {cursor: pointer;}
     outline: 1px solid red;*/}
    
 .footer-l{display: flex;
+    flex-direction: column;
     align-items: baseline;
     outline: 1px solid blue;
     max-width: 264px;
