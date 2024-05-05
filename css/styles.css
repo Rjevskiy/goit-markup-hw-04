@@ -231,13 +231,13 @@ button {cursor: pointer;}
     text-align: center;
     margin-bottom: 72px}     
 
-.photo-container{display: flex;
+.ourteam-ul{display: flex;
     /*flex-direction: row;*/
     justify-content: center; 
     gap: 24px;
     padding-bottom: 120px;}
     
-.ourteam-fhoto{background-color:#FFFFFF;
+.ourteam-li{background-color:#FFFFFF;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);}    
 
@@ -256,7 +256,7 @@ button {cursor: pointer;}
     letter-spacing: 0.02em;
     text-align: center;}
 
-.our-team-list-link{display: flex;
+.ourteam-icon-ul{display: flex;
     flex-direction: row;
     padding-bottom: 32px;
     padding-top: 8px;
