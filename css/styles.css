@@ -245,6 +245,8 @@ button {cursor: pointer;}
 
 .image-container{display: flex;
     flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 32px;
     outline: 1px solid green}
 
 .ourteam-item{text-align: center;
@@ -439,6 +441,6 @@ button {cursor: pointer;}
     fill: #31d0aa;
     background-color: #31d0aa;}
  
-/*
+
 .footer-list-icon{fill: #f4f4fd;}    
 
