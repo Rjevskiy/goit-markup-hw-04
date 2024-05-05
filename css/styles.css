@@ -407,9 +407,10 @@ button {cursor: pointer;}
     margin-bottom: 16px;}    
 
 .foter-logo{display: flex;
-    fill: #4d5ae5;
+    /*fill: #4d5ae5;*/
     gap: 16px;}
 
+.footer-a{ fill: #4d5ae5;}
 
 .footer-item{
     color: #f4f4fd;
