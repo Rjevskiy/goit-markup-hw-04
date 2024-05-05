@@ -262,6 +262,8 @@ button {cursor: pointer;}
 
 .ourteam-icon-ul{display: flex;
     flex-direction: row;
+    gap: 24px;
+    justify-content: center;
     padding-bottom: 32px;
     padding-top: 8px;
     outline: 1px solid greenyellow;}
