@@ -281,8 +281,8 @@ button {cursor: pointer;}
     border-radius: 50%;
     height: 100%;}
 
-.our-team-hover:hover,   
-.our-team-hover:focus{background-color: #404bbf;}  
+.ourteam-hover-link:hover,   
+.ourteam-hover-link:focus{background-color: #404bbf;}  
     
 
 /*========Our-Portfolio======*/
