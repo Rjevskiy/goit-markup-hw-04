@@ -395,6 +395,10 @@ button {cursor: pointer;}
     text-transform: uppercase;
     color: #f4f4fd;}
 
+.footer-item{
+    color: #f4f4fd;
+    width: 264px;} 
+
 .footer-i{
     outline: 1px solid darkorange;
    color: #fff;}
@@ -406,13 +410,11 @@ button {cursor: pointer;}
     color: #FFFFFF;
     margin-bottom: 16px;}    
 
-.foter-logo{display: flex;
-    /*fill: #4d5ae5;*/
+.foter-ul{display: flex;
     gap: 16px;}
 
-.footer-item{
-    color: #f4f4fd;
-    width: 264px;} 
+.footer-list-link{width: 40px;
+    height: 40px;}
 
 .footer-a{ fill: #4d5ae5;
     width: 100%;
@@ -428,10 +430,7 @@ button {cursor: pointer;}
 .footer-a:focus{
     fill: #31d0aa;
     background-color: #31d0aa;}
-
-.footer-list-icon{}
-
-.footer-list-link{}
+ 
 /*
 .footer-list-icon{fill: #f4f4fd;}    
 
