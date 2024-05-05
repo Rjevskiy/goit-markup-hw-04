@@ -250,8 +250,7 @@ button {cursor: pointer;}
     outline: 1px solid green}
 
 .ourteam-item{text-align: center;
-    padding-bottom: 8px;
-    padding-top: 32px;}    
+    padding-bottom: 8px;}    
 
 .ourteam-link{
     font-weight: 400;
@@ -264,7 +263,6 @@ button {cursor: pointer;}
     flex-direction: row;
     gap: 24px;
     justify-content: center;
-    padding-bottom: 32px;
     padding-top: 8px;
     outline: 1px solid greenyellow;}
 
